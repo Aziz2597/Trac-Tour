@@ -1,25 +1,24 @@
-# Trip Track
+# Trip Tracker
 
-Welcome to Trip Track! Trip Track is a route sharing social media platform that allows users to create, share, and discover road trips with various waypoints. Users can choose different vehicle types, share descriptions, interact with other users, and much more.
+Welcome to Trac Tour! It is a route sharing social media platform that allows users to create, share, and discover road trips with various waypoints. Users can choose different vehicle types, share descriptions, interact with other users, and much more.
 
 ## Table of Contents
 
-- [Trip Track](#trip-track)
-  - [Table of Contents](#table-of-contents)
-  - [Features](#features)
-  - [Technologies](#technologies)
-  - [Current Status](#current-status)
-    - [Backend](#backend)
-    - [Frontend](#frontend)
-  - [Setup](#setup)
-  - [Usage](#usage)
-  - [API Endpoints](#api-endpoints)
-    - [User Endpoints](#user-endpoints)
-    - [Routes Endpoints](#routes-endpoints)
-    - [Conversation Endpoints](#conversation-endpoints)
-    - [Message Endpoints](#message-endpoints)
-  - [Contributing](#contributing)
-  - [License](#license)
+- [Table of Contents](#table-of-contents)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Current Status](#current-status)
+  - [Backend](#backend)
+  - [Frontend](#frontend)
+- [Setup](#setup)
+- [Usage](#usage)
+- [API Endpoints](#api-endpoints)
+  - [User Endpoints](#user-endpoints)
+  - [Routes Endpoints](#routes-endpoints)
+  - [Conversation Endpoints](#conversation-endpoints)
+  - [Message Endpoints](#message-endpoints)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Features
 
