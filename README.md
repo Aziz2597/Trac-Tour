@@ -27,9 +27,8 @@ Welcome to Trip Track! Trip Track is a route sharing social media platform that 
 - Profile management
 - Create and share routes with start and finish points and waypoints
 - Different vehicle types (car, bicycle, walking, etc.)
-- Like, comment, and bookmark routes
+- Like, comment, and share routes
 - Follow/unfollow users
-- Private messaging
 - Feed with general and followed users' routes
 - Secure profiles (private mode)
 
@@ -80,8 +79,10 @@ Welcome to Trip Track! Trip Track is a route sharing social media platform that 
    Create a `.env` file in the `backend` directory and add the following variable:
 
    ```env
-   PORT=3500
-   MONGO_URI=YOUR_MONGODB_CONNECTION_STRING
+   PORT = 3500
+   MONGO_URI = YOUR_MONGODB_CONNECTION_STRING
+   ACCESS_TOKEN_SECRET = xxxxx
+   REFRESH_TOKEN_SECRET = xxxx
    ```
 
 4. **Install dependencies for the frontend:**
@@ -126,9 +127,6 @@ Welcome to Trip Track! Trip Track is a route sharing social media platform that 
 - **PUT** `/users/unfollow/:id`: Unfollow a user.
 - **GET** `/users/followers/:id`: Get followers.
 - **GET** `/users/following/:id`: Get following.
-- **PUT** `/users/bookmark/:routeId`: Bookmark a route.
-- **PUT** `/users/unbookmark/:routeId`: Unbookmark a route.
-- **GET** `/users/bookmarks`: Get bookmarks.
 - **PUT** `/users/secure`: Secure profile.
 
 ### Routes Endpoints
@@ -141,16 +139,6 @@ Welcome to Trip Track! Trip Track is a route sharing social media platform that 
 - **PUT** `/routes/like/:id`: Like a route.
 - **POST** `/routes/comment/:id`: Comment on a route.
 - **GET** `/routes/followed/:userId`: Get followed routes.
-
-### Conversation Endpoints
-
-- **POST** `/conversations`: Create a new conversation.
-- **GET** `/conversations/:userId`: Get all conversations for a user.
-
-### Message Endpoints
-
-- **POST** `/messages`: Send a message.
-- **GET** `/messages/:conversationId`: Get messages for a conversation.
 
 ## Contributing
 
